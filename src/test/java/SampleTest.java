@@ -6,7 +6,7 @@ public class SampleTest {
     @Test
     public void Logo(){
         WebDriver webDriver = new ChromeDriver();
-        webDriver.get("https://moodle.chnu.edu.ua/login/index.php");
+        webDriver.get("http://www.youtube.com/watch?v=fOeQWJ1QMSY&ab_channel=HillelITSchool");
 
     }
 }
