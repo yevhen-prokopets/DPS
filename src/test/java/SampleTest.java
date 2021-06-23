@@ -32,6 +32,5 @@ public class SampleTest {
         webDriver.findElement(By.xpath("//*[@id=\"js-contribution-activity\"]/div[2]/div/div[2]/div[2]/details/div/ul/li[2]/span[1]/span/a")).click();
     }
 
-
     }
 
