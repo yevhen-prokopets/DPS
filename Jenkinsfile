@@ -11,6 +11,8 @@ pipeline {
       }
     }
     stage("Reports") {
+      
+      steps{
                 allure([
                     includeProperties: false,
                     jdk: '',
