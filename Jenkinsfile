@@ -3,15 +3,14 @@ pipeline {
   agent any
   
   stages{
+    
     stage("Test"){
       
       steps{
         sh 'mvn clean test'
       }
     }
-  }
-
- stage('Reports') {
+    stage("Reports") {
                 allure([
                     includeProperties: false,
                     jdk: '',
@@ -20,4 +19,6 @@ pipeline {
                     results: [[path: 'target/allure-results']]
                 ])
             }
+  }
+
 }
