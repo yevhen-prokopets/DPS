@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DPS" />
         <module name="Assert-master" />
+        <module name="allure-jenkins-cucumber" />
       </profile>
     </annotationProcessing>
   </component>
