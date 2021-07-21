@@ -14,6 +14,11 @@ public class SampleTest {
         webDriver.get("https://moodle.chnu.edu.ua");
     }
 
+    @Test
+    public void Second_test(){
+        WebDriver webDriver = new ChromeDriver();
+        webDriver.get("https://www.warmdevs.com/");
+}
     }
 
 
